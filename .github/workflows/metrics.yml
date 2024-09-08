@@ -19,7 +19,7 @@ jobs:
           plugin_notable_filter: stars:>100
           plugin_notable_repositories: 'yes'
           plugin_stargazers: 'yes'
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GIT_HUB_TOKEN }}
 name: Metrics
 'on':
   push:
