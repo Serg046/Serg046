@@ -6,7 +6,7 @@ jobs:
       - name: GitHub metrics as SVG image
         uses: lowlighter/metrics@v3.18
         with:
-          config_timezone: Europe/Sofia
+          config_timezone: Europe/Moscow
           plugin_followup: yes
           plugin_followup_sections: repositories, user
           plugin_languages: yes
